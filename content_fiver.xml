@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.parasajmera.genericfire.Fiver"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_fiver">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:gravity="center"
+        android:text="Generic Medicines Related To Your Symptoms"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_search_black_24dp"/>
+        <Spinner
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:id="@+id/Spinner"
+            android:layout_marginLeft="15dp"
+            android:background="@color/colorAccent"
+            android:scrollbarStyle="insideInset" />
+    </LinearLayout>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Search"
+       android:id="@+id/searchButton"
+       android:background="@android:color/holo_orange_dark"/>
+
+
+</LinearLayout>
+</ScrollView>

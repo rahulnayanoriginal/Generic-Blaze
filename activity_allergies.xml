@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    tools:context="com.example.parasajmera.genericfire.Allergies">
+
+    <TextView
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="Acne"
+        android:textSize="40dp"
+        android:background="@android:color/holo_orange_dark"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Generic medicine"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteY="58dp"
+        tools:layout_editor_absoluteX="35dp" />
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:textSize="40dp"
+        android:text="Doxycycline"
+        android:background="@android:color/holo_orange_dark"
+        tools:layout_editor_absoluteY="134dp"
+        tools:layout_editor_absoluteX="75dp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:background="@android:color/holo_orange_dark"
+        tools:layout_editor_absoluteY="195dp"
+        tools:layout_editor_absoluteX="17dp"
+        android:textSize="23dp"
+        android:text="Doxycycline is used to treat many
+different bacterial infections, such
+as acne, urinary tract infections,
+intestinal infections, eye
+infections, gonorrhea, chlamydia,
+periodontitis (gum disease), and
+others."/>
+
+</android.support.constraint.ConstraintLayout>

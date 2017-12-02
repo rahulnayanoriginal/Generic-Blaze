@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context="com.example.parasajmera.genericfire.Symptoms">
+
+    <TextView
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="The main aim of this project is to bring transparency in the field of medical and technology.
+         This application gives users the platform the self-examine their diseases on the basis of their symptoms and then this application will suggest generic medicines for the disease        (One of the initiative started by Government of Rajasthan, GoR)."
+        android:id="@+id/Mediname"
+        android:textSize="24dp"
+        android:textColor="@android:color/holo_orange_dark"
+        />
+
+
+</android.support.constraint.ConstraintLayout>

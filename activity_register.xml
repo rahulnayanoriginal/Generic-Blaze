@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context="com.example.parasajmera.genericfire.Register">
+
+    <LinearLayout
+        android:id="@+id/llLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nice to meet you"
+            android:background="@color/colorAccent"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/edittext3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_above="@+id/edittext4"
+            android:hint="Namw"
+            android:background="@android:color/holo_orange_dark"
+            android:layout_alignStart="@+id/edittext4"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="33dp"
+            android:layout_weight="0.08" />
+
+        <EditText
+            android:id="@+id/edittext4"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_above="@+id/textView5"
+            android:layout_alignStart="@+id/textView5"
+            android:ems="20"
+            android:background="@android:color/holo_orange_dark"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/back"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="209dp"
+            android:layout_weight="0.25" />
+
+        <EditText
+            android:id="@+id/edittext5"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_above="@+id/textView4"
+            android:layout_alignStart="@+id/textView4"
+            android:ems="20"
+            android:background="@android:color/holo_orange_dark"
+            android:hint=" Password"
+            android:inputType="textPassword"
+            android:textColor="@color/back"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="318dp"
+            android:layout_weight="0.25" />
+
+        <EditText
+            android:id="@+id/edittext6"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_above="@+id/edittext6"
+            android:layout_alignStart="@+id/textView4"
+            android:ems="10"
+            android:background="@android:color/holo_orange_dark"
+            android:hint=" Mobile Number"
+            android:inputType="phone"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="420dp"
+            android:layout_weight="0.11" />
+
+        <EditText
+            android:id="@+id/edittext7"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/edittext5"
+            android:hint=" City"
+            android:background="@android:color/holo_orange_dark"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="466dp"
+            android:layout_weight="0.11" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/llLayout"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_green_light"
+            android:gravity="center"
+            android:text="Register" />
+    </LinearLayout>
+</ScrollView>

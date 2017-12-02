@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "278752855470",
+    "firebase_url": "https://generic-fire.firebaseio.com",
+    "project_id": "generic-fire",
+    "storage_bucket": "generic-fire.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278752855470:android:5c1964238470038a",
+        "android_client_info": {
+          "package_name": "com.example.parasajmera.genericfire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278752855470-2945i1f08ptijgesithdas3avb1ub7op.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW1yX9oXyaVP6XaTNYMPECmViVyPKkNF0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
